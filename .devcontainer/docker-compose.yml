@@ -22,7 +22,6 @@ services:
       - "1433:1433"
     volumes:
       - sql-data:/var/opt/mssql
-      - ..:/workspaces/sql-ai-promptathon:ro
 
 volumes:
   sql-data:

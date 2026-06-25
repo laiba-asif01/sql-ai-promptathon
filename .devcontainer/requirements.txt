@@ -1,11 +1,13 @@
-# Python data stack for the SQL AI Promptathon devcontainer.
-# Kept intentionally small so the Codespace starts quickly.
-# SQL Server connectivity uses pyodbc with the Microsoft ODBC Driver 18,
+# Minimal Python stack for the SQL AI Promptathon devcontainer.
+# Only the essentials are preinstalled so the container starts fast.
+# SQL connectivity uses pyodbc with the Microsoft ODBC Driver 18,
 # which is installed in the container image.
+#
+# Need more (notebooks, plotting, etc.)? Install on demand, e.g.:
+#   python3 -m pip install numpy matplotlib ipykernel
+# (numpy already ships transitively with pandas; VS Code's Jupyter
+#  extension auto-installs ipykernel when you open a notebook.)
 
 pandas
-numpy
-matplotlib
-ipykernel
 pyodbc
 python-dotenv
