@@ -1,3 +1,6 @@
+### Mission Summary
+B2C category ke top 5 products ka analysis complete ho gaya hai aur unka sales performance data niche table mein shamil hai.
+
 # Mission: Find Zava's Hidden Product-Quality Crisis
 
 ## Background
@@ -67,3 +70,12 @@ Return a concise executive brief with:
 
 5. **Confidence and limitations**
    - Explain how confident you are and what data gaps remain.
+
+--------------------------------------------------------------------------------- ------------ ------------------------ ----------------- -------------
+B2C                                      Elite Long Sleeve Men's Top                                                                                                                                                                                         0                     NULL                 0             0
+B2C                                      Elite Short Sleeve Men's Top                                                                                                                                                                                        0                     NULL                 0             0
+B2C                                      Premium Short Sleeve Men's Top                                                                                                                                                                                      0                     NULL                 0             0
+B2C                                      Elite Short Sleeve Women's Top                                                                                                                                                                                      0                     NULL                 0             0
+B2C                                      Premium Long Sleeve Men's Top                                                                                                                                                                                       0                     NULL                 0             0
+
+(5 rows affected)
